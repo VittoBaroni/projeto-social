@@ -34,10 +34,28 @@ main{
     height: 627px;
     width: 311px;
 }
+
+
 #tela{
     position: relative;
     top: 80px;
     left:23px;
     width: 269px;
     height: 471px;
+}
+#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
+    box-sizing: border-box;
+}
+#redes-sociais{
+    text-align: right;
+}
+#redes-sociais img:hover{
+    border: 2px solid rgba(94, 93, 93, 0.603);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+    transition: transform 0.2s;
 }
